@@ -10,7 +10,8 @@ import org.example.weather.model.DailyTemp;
 import org.example.weather.thread.ParallelExecutor;
 
 import java.util.*;
-import java.util.concurrent.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 
